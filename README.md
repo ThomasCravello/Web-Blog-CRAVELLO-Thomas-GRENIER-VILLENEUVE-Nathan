@@ -21,7 +21,6 @@ ce projet web est un blog web sur la musique créé dans le cadre d'un TP web, i
 - les pages contiennent image, vidéos et textes
 - une zone permettant a l'utilisateur principal de ce connecter a fin de partager du nouveux comptenue pour le blog
 - une page web étant doté d'un "caroussel"
-- 
 
 ## Installation / Lancement
 le projet est récupérable via la commande : ```git clone https://github.com/ThomasCravello/Web-Blog-CRAVELLO-Thomas-GRENIER-VILLENEUVE-Nathan.git```
