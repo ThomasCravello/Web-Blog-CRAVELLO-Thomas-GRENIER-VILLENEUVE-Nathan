@@ -2,15 +2,14 @@
 ## Par CRAVELLO Thomas et GRENIER-VILLENEUVE Nathan
 
 
-ce projet web est un blog web sur la musique crée dans le cadre d'un TP web, il contiens 
-
+ce projet web est un blog web sur la musique créé dans le cadre d'un TP web, il contient :
 - 4 à 5 pages
 - une page contenant du texte
 - une page contenant un formulaire de contact
-- une page contenant des images et des video
+- une page contenant des images et des vidéos
 
-## hebergement 
-le projet est heberger sur le site web : 
+## hébergement 
+le projet est hébergé sur le site web : 
 https://projetweb-ciel-cravello-grenier.infinityfree.io/
 
 
@@ -25,3 +24,4 @@ https://projetweb-ciel-cravello-grenier.infinityfree.io/
 
 ## cloner le projet
 le projet est récupérable via la commande : ```git clone https://github.com/ThomasCravello/Web-Blog-CRAVELLO-Thomas-GRENIER-VILLENEUVE-Nathan.git```
+>DISCLAIMER : nous ne sommes pas responsables des problèmes liés à toute modification que vous avez que **vous** aurez opérée
