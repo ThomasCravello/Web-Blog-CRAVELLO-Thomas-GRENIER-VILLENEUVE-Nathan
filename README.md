@@ -16,13 +16,11 @@ https://projetweb-ciel-cravello-grenier.infinityfree.io/
 
 ## fiche technique
 
-|     test |
-|:---------|
-|     test |
-|:---------|
-|     test |
-|:---------|
-|     test |
-|:---------|
-|     test |
-|:---------|
+|     explication       |        |
+|:----------------------|:-------|
+|    nombre de page web |  5     |
+|    nombre de CSS      |  5     |
+|    nombre de JS       |  5     |
+|    coup du projet     |  300€  |
+
+
