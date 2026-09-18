@@ -1,7 +1,7 @@
 # Projet Web blog
 > Par CRAVELLO Thomas et GRENIER-VILLENEUVE Nathan
 
-## présentation
+## Présentation
 Ce projet a été développé dans le cadre d'un TP lié au développement WEB, il s'agit d'un WebBlog sur la musique. il permet à un utilisateur principal de publier
 Des images, des vidéos ainsi que des avis sur des moments de sa vie (liés à la musique).
 
