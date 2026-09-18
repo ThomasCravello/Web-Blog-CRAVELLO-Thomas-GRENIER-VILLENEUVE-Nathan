@@ -1,1 +1,5 @@
-# Web-Blog-CRAVELLO-Thomas-GRENIER-VILLENEUVE-Nathan
+# Projet Web blog
+
+## Par CRAVELLO Thomas et GRENIER-VILLENEUVE Nathan
+
+Ce projet consiste à créer un 
