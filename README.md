@@ -24,5 +24,4 @@ https://projetweb-ciel-cravello-grenier.infinityfree.io/
 |    coup du projet     |  300€  |
 
 ## cloner le projet
-> le projet est récupérable via la commande :
-```git clone```
+le projet est récupérable via la commande : ```git clone```
