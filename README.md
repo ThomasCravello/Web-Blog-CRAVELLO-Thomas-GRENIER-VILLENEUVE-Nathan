@@ -23,4 +23,6 @@ https://projetweb-ciel-cravello-grenier.infinityfree.io/
 |    nombre de JS       |  5     |
 |    coup du projet     |  300€  |
 
-
+## cloner le projet
+> le projet est récupérable via la commande :
+```git clone```
