@@ -2,8 +2,8 @@
 > Par CRAVELLO Thomas et GRENIER-VILLENEUVE Nathan
 
 ## Présentation
-Ce projet a été développé dans le cadre d'un TP lié au développement WEB, il s'agit d'un WebBlog sur la musique. il permet à un utilisateur principal de publier
-Des images, des vidéos ainsi que des avis sur des moments de sa vie (liés à la musique).
+Ce projet a été développé dans le cadre d'un TP lié au développement WEB, il s'agit d'un WebBlog sur la musique. Il permet à un utilisateur de publier
+des images, des vidéos ainsi que des avis sur des moments de sa vie (liés à la musique).
 
 ## Hébergement 
 le projet est hébergé sur le site web : 
