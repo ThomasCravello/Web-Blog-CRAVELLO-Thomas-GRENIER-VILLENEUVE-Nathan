@@ -2,4 +2,4 @@
 
 ## Par CRAVELLO Thomas et GRENIER-VILLENEUVE Nathan
 
-Ce projet consiste à créer un 
+Ce projet consiste à créer une site web hébergé sur infintyfree.
