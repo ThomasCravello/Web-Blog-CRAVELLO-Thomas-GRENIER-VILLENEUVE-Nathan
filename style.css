@@ -42,10 +42,6 @@ main {
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
-    background-image: url("media/fond.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 section {
