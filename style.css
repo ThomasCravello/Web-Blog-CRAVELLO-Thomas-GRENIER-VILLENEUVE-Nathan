@@ -302,3 +302,50 @@ article:hover {
         gap: 10px;
     }
 }
+
+/*contact */
+
+.contact-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 35px 30px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.contact-section h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: none;
+}
+
+.contact-intro {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+/* Style de la zone de texte (textarea) en harmonie avec les inputs */
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #1e293b;
+    background-color: #f8fafc;
+    resize: vertical;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    background-color: #ffffff;
+}
