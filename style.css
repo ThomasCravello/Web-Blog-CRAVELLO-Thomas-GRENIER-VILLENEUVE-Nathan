@@ -122,6 +122,11 @@ footer {
     transition: opacity 0.3s ease;
 }
 
+.swiper-slide img{
+ height: 400px;
+ width: 400px;
+}
+
 .slide-overlay h3 {
     margin: 0 0 10px 0;
     font-size: 1.4rem;
