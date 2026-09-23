@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     centeredSlides: true,
     slidesPerView: 'auto',
     loop: true,
+    
+    // --- AUTOPLAY AJOUTÉ ICI ---
+    autoplay: {
+      delay: 2000, // 5000 ms = 5 secondes
+      disableOnInteraction: false, // Continue le défilement automatique même si l'utilisateur clique/glisse
+    },
+    
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
