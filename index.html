@@ -5,41 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation - Music Blog</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body class="parallax">
 
     <header>
-        <h1>Music Blog</h1>
-        <p>Découvrez l'univers de la musique électronique</p>
+        <h1 data-fr="Music Blog" data-en="Music Blog">Music Blog</h1>
+        <p data-fr="Découvrez l'univers de la musique électronique"
+           data-en="Discover the world of electronic music">
+            Découvrez l'univers de la musique électronique
+        </p>
     </header>
 
     <nav>
-        <a href="index.html">Accueil</a>
-        <a href="index2.html">Artistes</a>
-        <a href="index3.html">Musiques</a>
-        <a href="index4.html" class="active">Contact</a>
-        <a href="connexion.html">Connexion</a>
+        <a href="index.html"
+           data-fr="Accueil"
+           data-en="Home">Accueil</a>
+
+        <a href="index2.html"
+           data-fr="Artistes"
+           data-en="Artists">Artistes</a>
+
+        <a href="index3.html"
+           data-fr="Musiques"
+           data-en="Music">Musiques</a>
+
+        <a href="index4.html"
+           class="active"
+           data-fr="Contact"
+           data-en="Contact">Contact</a>
+
+        <a href="connexion.html"
+           data-fr="Connexion"
+           data-en="Login">Connexion</a>
     </nav>
 
     <main>
         <section>
-            <h2>À propos du blog</h2>
+            <h2 data-fr="À propos du blog"
+                data-en="About the blog">
+                À propos du blog
+            </h2>
 
-            <p>
+            <p data-fr="Bienvenue sur notre blog consacré à la musique."
+               data-en="Welcome to our music blog.">
                 Bienvenue sur notre blog consacré à la musique.
             </p>
 
-            <p>
-                Ce site a été créé pour partager notre passion pour la musique électronique à travers
-                des découvertes d'artistes, de leurs albums ainsi que de leurs chansons.
+            <p data-fr="Ce site a été créé pour partager notre passion pour la musique électronique à travers des découvertes d'artistes, de leurs albums ainsi que de leurs chansons."
+               data-en="This website was created to share our passion for electronic music through discoveries of artists, their albums and their songs.">
+                Ce site a été créé pour partager notre passion pour la musique électronique à travers des découvertes d'artistes, de leurs albums ainsi que de leurs chansons.
             </p>
 
-            <p>
+            <p data-fr="Nous vous invitons à vous renseigner sur les artistes que nous vous proposons, et peut être même, sur d'autres artistes que nous n'avons pas mentionnés dans ce blog."
+               data-en="We invite you to learn more about the artists we present and perhaps even discover other artists that we have not mentioned in this blog.">
                 Nous vous invitons à vous renseigner sur les artistes que nous vous proposons, et peut être même, sur d'autres artistes que nous n'avons pas mentionnés dans ce blog.
             </p>
-
         </section>
     </main>
+
+    <button id="translateBtn">🇫🇷 Français</button>
 
 </body>
 </html>

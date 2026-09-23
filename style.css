@@ -399,3 +399,11 @@ article:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*traduction*/
+
+#translateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

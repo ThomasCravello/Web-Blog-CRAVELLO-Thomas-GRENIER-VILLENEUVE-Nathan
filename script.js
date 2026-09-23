@@ -6,10 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesPerView: 'auto',
     loop: true,
     
-    // --- AUTOPLAY AJOUTÉ ICI ---
     autoplay: {
-      delay: 2000, // 5000 ms = 5 secondes
-      disableOnInteraction: false, // Continue le défilement automatique même si l'utilisateur clique/glisse
+      delay: 2000,
+      disableOnInteraction: false,
     },
     
     coverflowEffect: {
@@ -29,3 +28,30 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   });
 });
+
+//traduction
+
+let currentLang = "fr";
+
+document.getElementById("translateBtn").addEventListener("click", () => {
+    const elements = document.querySelectorAll("[data-fr]");
+
+    if (currentLang === "fr") {
+        elements.forEach(el => {
+            el.textContent = el.dataset.en;
+        });
+
+        document.getElementById("translateBtn").textContent = "🇬🇧 English";
+        document.documentElement.lang = "en";
+        currentLang = "en";
+    } else {
+        elements.forEach(el => {
+            el.textContent = el.dataset.fr;
+        });
+
+        document.getElementById("translateBtn").textContent = "🇫🇷 Français";
+        document.documentElement.lang = "fr";
+        currentLang = "fr";
+    }
+});
+

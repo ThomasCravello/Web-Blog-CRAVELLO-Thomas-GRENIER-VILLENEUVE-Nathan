@@ -4,124 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artistes - Music Blog</title>
+    <title data-fr="Artistes - Music Blog" data-en="Artists - Music Blog">Artistes - Music Blog</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body class="parallax">
 
+    <div id="google_translate_element" style="display:none;"></div>
+
     <header>
-        <h1>Music Blog</h1>
-        <p>Découvrez l'univers de la musique électronique</p>
+        <h1 data-fr="Music Blog" data-en="Music Blog">Music Blog</h1>
+        <p data-fr="Découvrez l'univers de la musique électronique" data-en="Discover the world of electronic music">
+            Découvrez l'univers de la musique électronique
+        </p>
     </header>
 
     <nav>
-        <a href="index.html">Accueil</a>
-        <a href="index2.html">Artistes</a>
-        <a href="index3.html">Musiques</a>
-        <a href="index4.html" class="active">Contact</a>
-        <a href="connexion.html">Connexion</a>
+        <a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a>
+        <a href="index2.html" class="active" data-fr="Artistes" data-en="Artists">Artistes</a>
+        <a href="index3.html" data-fr="Musiques" data-en="Music">Musiques</a>
+        <a href="index4.html" data-fr="Contact" data-en="Contact">Contact</a>
+        <a href="connexion.html" data-fr="Connexion" data-en="Login">Connexion</a>
     </nav>
 
     <main>
         <section>
-            <h2>Artistes</h2>
+            <h2 data-fr="Artistes" data-en="Artists">Artistes</h2>
 
             <div class="swiper1">
                 <div class="swiper1-wrapper">
+                    
+                    <!-- Alan Walker -->
                     <div class="swiper1-slide">
-                        <img src="media/alanwalker.webp">
+                        <img src="media/alanwalker.webp" alt="Alan Walker">
                         <div class="slide-text">
-                            <h3 class="ARTName">Alan Walker</h3>
-                            <p>
-                                Alan Walker, ayant autrefois utilisé le pseudonyme DJ Walkzz, est un DJ,
-                                auteur-compositeur et producteur britannico-norvégien, né le 24 août 1997 à Northampton
-                                (Midlands de l'Est). Après ses débuts en 2012, son morceau instrumental Fade, réalisé en
-                                2014, fait sensation après avoir été mis en ligne sur YouTube, lui permettant de signer
-                                un contrat avec le label NoCopyrightSounds. Ses titres Spectre ou Force
-                                sont aussi remarqués, mais c'est une version vocale de Fade, baptisée Faded (avec la
-                                chanteuse Iselin Solheim), qui rencontre le succès. Il a par la suite collaboré avec Ava
-                                Max,
-                                Sabrina Carpenter, Steve Aoki ou encore Julia Michaels.
-                                <a href="https://www.alanwalker.com/en" target="_blank">Pour en savoir plus sur Alan
-                                    Walker
-                                </a>
+                            <h3 class="ARTName" data-fr="Alan Walker" data-en="Alan Walker">Alan Walker</h3>
+                            <p data-fr="Alan Walker, ayant autrefois utilisé le pseudonyme DJ Walkzz, est un DJ, auteur-compositeur et producteur britannico-norvégien, né le 24 août 1997 à Northampton (Midlands de l'Est). Après ses débuts en 2012, son morceau instrumental Fade, réalisé en 2014, fait sensation après avoir été mis en ligne sur YouTube, lui permettant de signer un contrat avec le label NoCopyrightSounds. Ses titres Spectre ou Force sont aussi remarqués, mais c'est une version vocale de Fade, baptisée Faded (avec la chanteuse Iselin Solheim), qui rencontre le succès. Il a par la suite collaboré avec Ava Max, Sabrina Carpenter, Steve Aoki ou encore Julia Michaels." 
+                               data-en="Alan Walker, formerly known by the pseudonym DJ Walkzz, is a British-Norwegian DJ, songwriter, and producer, born on August 24, 1997, in Northampton (East Midlands). After his debut in 2012, his instrumental track Fade, released in 2014, became a sensation after being uploaded to YouTube, allowing him to sign a contract with the NoCopyrightSounds label. His tracks Spectre and Force were also well-received, but it was a vocal version of Fade, titled Faded (featuring singer Iselin Solheim), that achieved massive success. He has since collaborated with Ava Max, Sabrina Carpenter, Steve Aoki, and Julia Michaels.">
+                                Alan Walker, ayant autrefois utilisé le pseudonyme DJ Walkzz, est un DJ, auteur-compositeur et producteur britannico-norvégien, né le 24 août 1997 à Northampton (Midlands de l'Est). Après ses débuts en 2012, son morceau instrumental Fade, réalisé en 2014, fait sensation après avoir été mis en ligne sur YouTube, lui permettant de signer un contrat avec le label NoCopyrightSounds. Ses titres Spectre ou Force sont aussi remarqués, mais c'est une version vocale de Fade, baptisée Faded (avec la chanteuse Iselin Solheim), qui rencontre le succès. Il a par la suite collaboré avec Ava Max, Sabrina Carpenter, Steve Aoki ou encore Julia Michaels.
                             </p>
+                            <a href="https://www.alanwalker.com/en" target="_blank" 
+                               data-fr="Pour en savoir plus sur Alan Walker" 
+                               data-en="Learn more about Alan Walker">
+                                Pour en savoir plus sur Alan Walker
+                            </a>
                         </div>
                     </div>
-                    <div class="swiper1-slide">
-                        <img src="media/Andy_Delos_Santos.webp">
-                        <div class="slide-text">
-                            <h3 class="ARTName">Andy Delos Santos</h3>
-                            <p>
-                                Andy Delos Santos est un chanteur, auteur-compositeur, producteur vocal et arrangeur
-                                américano-philippin basé à Los Angeles. Il travaille principalement dans la pop,
-                                le R&B et la musique soul, et collabore avec de nombreux artistes et producteurs.
-                                Il est notamment présent sur plusieurs morceaux avec Deanz, comme « Help You Let It Go »
-                                et « Can’t Be the Only One », ainsi qu’avec CLNGR sur « Alive with You » et avec Craig
-                                Reever
-                                sur « Nothing Comes Close ». En parallèle de ses propres projets, Andy Delos Santos
-                                travaille
-                                également comme chanteur et choriste pour des productions musicales et télévisées.
-                                <a href="https://www.andydelossantos.com/" target="_blank">Pour en savoir plus sur Andy
-                                    Delos Santos
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper1-slide">
-                        <img src="media/Vicki_Vox.webp">
-                        <div class="slide-text">
-                            <h3 class="ARTName">Vicki Vox</h3>
-                            <p>
-                                Originaire de Stockholm, Vicki Vox est une chanteuse et auteure-compositrice qui crée
-                                principalement
-                                de la pop, avec des influences R&B et électroniques. Sa musique se distingue par des
-                                mélodies accrocheuses
-                                et des textes personnels, avec une voix qui occupe une place importante dans ses
-                                morceaux. Elle travaille
-                                notamment avec le label Epidemic Sound et a collaboré avec plusieurs producteurs et
-                                artistes comme Hallman,
-                                Tape Machines, Craig Reever ou encore Velee. Parmi ses morceaux et collaborations, on
-                                retrouve notamment
-                                « Hide and Seek » avec Hallman, « Out Into Space » et « Perfect Match » avec Tape
-                                Machines, ou encore
-                                « So Am I » avec Velee.
 
-                            </p>
-                        </div>
-                    </div>
                     <div class="swiper1-slide">
-                        <img src="media/Jim_Yosef.webp">
+                        <img src="media/Andy_Delos_Santos.webp" alt="Andy Delos Santos">
                         <div class="slide-text">
-                            <h3 class="ARTName">Jim Yosef</h3>
-                            <p>
-                                Jim Yosef est un producteur et DJ suédois spécialisé dans la musique
-                                électronique, notamment l’EDM, la house et la progressive house. Il s’est fait connaître
-                                grâce à des
-                                morceaux mélodiques publiés notamment sur des labels comme Ninety9Lives et
-                                NoCopyrightSounds. Parmi
-                                ses morceaux les plus connus, on retrouve « Firefly », « Linked », « Link », « Eclipse »
-                                et « Hate You ».
-                                Il a également collaboré avec différents artistes, notamment Syzz, Chris Linton et Elle
-                                Vee. Sa musique
-                                connaît un important succès sur les plateformes de streaming, avec plusieurs de ses
-                                morceaux comptant des
-                                dizaines de millions d’écoutes.
-                                <a href="https://jimyosef.com/" target="_blank">Pour en savoir plus sur Jim Yosef
-                                </a>
+                            <h3 class="ARTName" data-fr="Andy Delos Santos" data-en="Andy Delos Santos">Andy Delos Santos</h3>
+                            <p data-fr="Andy Delos Santos est un chanteur, auteur-compositeur, producteur vocal et arrangeur américano-philippin basé à Los Angeles. Il travaille principalement dans la pop, le R&B et la musique soul, et collabore avec de nombreux artistes et producteurs. Il est notamment présent sur plusieurs morceaux avec Deanz, comme « Help You Let It Go » et « Can’t Be the Only One », ainsi qu’avec CLNGR sur « Alive with You » et avec Craig Reever sur « Nothing Comes Close ». En parallèle de ses propres projets, Andy Delos Santos travaille également comme chanteur et choriste pour des productions musicales et télévisées." 
+                               data-en="Andy Delos Santos is a Filipino-American singer, songwriter, vocal producer, and arranger based in Los Angeles. He works primarily in pop, R&B, and soul music, collaborating with numerous artists and producers. He is featured on several tracks with Deanz, such as 'Help You Let It Go' and 'Can’t Be the Only One', as well as with CLNGR on 'Alive with You' and with Craig Reever on 'Nothing Comes Close'. Alongside his own projects, Andy Delos Santos also works as a singer and backing vocalist for musical and television productions.">
+                                Andy Delos Santos est un chanteur, auteur-compositeur, producteur vocal et arrangeur américano-philippin basé à Los Angeles. Il travaille principalement dans la pop, le R&B et la musique soul, et collabore avec de nombreux artistes et producteurs. Il est notamment présent sur plusieurs morceaux avec Deanz, comme « Help You Let It Go » et « Can’t Be the Only One », ainsi qu’avec CLNGR sur « Alive with You » et avec Craig Reever sur « Nothing Comes Close ». En parallèle de ses propres projets, Andy Delos Santos travaille également comme chanteur et choriste pour des productions musicales et télévisées.
+                            </p>
+                            <a href="https://www.andydelossantos.com/" target="_blank" 
+                               data-fr="Pour en savoir plus sur Andy Delos Santos" 
+                               data-en="Learn more about Andy Delos Santos">
+                                Pour en savoir plus sur Andy Delos Santos
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper1-slide">
+                        <img src="media/Vicki_Vox.webp" alt="Vicki Vox">
+                        <div class="slide-text">
+                            <h3 class="ARTName" data-fr="Vicki Vox" data-en="Vicki Vox">Vicki Vox</h3>
+                            <p data-fr="Originaire de Stockholm, Vicki Vox est une chanteuse et auteure-compositrice qui crée principalement de la pop, avec des influences R&B et électroniques. Sa musique se distingue par des mélodies accrocheuses et des textes personnels, avec une voix qui occupe une place importante dans ses morceaux. Elle travaille notamment avec le label Epidemic Sound et a collaboré avec plusieurs producteurs et artistes comme Hallman, Tape Machines, Craig Reever ou encore Velee. Parmi ses morceaux et collaborations, on retrouve notamment « Hide and Seek » avec Hallman, « Out Into Space » et « Perfect Match » avec Tape Machines, ou encore « So Am I » avec Velee." 
+                               data-en="Originally from Stockholm, Vicki Vox is a singer and songwriter who mainly creates pop music with R&B and electronic influences. Her music is characterized by catchy melodies and personal lyrics, with a voice that plays a central role in her tracks. She works notably with the Epidemic Sound label and has collaborated with several producers and artists such as Hallman, Tape Machines, Craig Reever, and Velee. Her tracks and collaborations include 'Hide and Seek' with Hallman, 'Out Into Space' and 'Perfect Match' with Tape Machines, and 'So Am I' with Velee.">
+                                Originaire de Stockholm, Vicki Vox est une chanteuse et auteure-compositrice qui crée principalement de la pop, avec des influences R&B et électroniques. Sa musique se distingue par des mélodies accrocheuses et des textes personnels, avec une voix qui occupe une place importante dans ses morceaux. Elle travaille notamment avec le label Epidemic Sound et a collaboré avec plusieurs producteurs et artistes comme Hallman, Tape Machines, Craig Reever ou encore Velee. Parmi ses morceaux et collaborations, on retrouve notamment « Hide and Seek » avec Hallman, « Out Into Space » et « Perfect Match » avec Tape Machines, ou encore « So Am I » avec Velee.
                             </p>
                         </div>
                     </div>
+
+                    <div class="swiper1-slide">
+                        <img src="media/Jim_Yosef.webp" alt="Jim Yosef">
+                        <div class="slide-text">
+                            <h3 class="ARTName" data-fr="Jim Yosef" data-en="Jim Yosef">Jim Yosef</h3>
+                            <p data-fr="Jim Yosef est un producteur et DJ suédois spécialisé dans la musique électronique, notamment l’EDM, la house et la progressive house. Il s’est fait connaître grâce à des morceaux mélodiques publiés notamment sur des labels comme Ninety9Lives et NoCopyrightSounds. Parmi ses morceaux les plus connus, on retrouve « Firefly », « Linked », « Link », « Eclipse » et « Hate You ». Il a également collaboré avec différents artistes, notamment Syzz, Chris Linton et Elle Vee. Sa musique connaît un important succès sur les plateformes de streaming, avec plusieurs de ses morceaux comptant des dizaines de millions d’écoutes." 
+                               data-en="Jim Yosef is a Swedish producer and DJ specializing in electronic music, particularly EDM, house, and progressive house. He gained recognition for his melodic tracks released on labels such as Ninety9Lives and NoCopyrightSounds. Among his most well-known tracks are 'Firefly', 'Linked', 'Link', 'Eclipse', and 'Hate You'. He has also collaborated with various artists, including Syzz, Chris Linton, and Elle Vee. His music enjoys significant success on streaming platforms, with several of his tracks garnering tens of millions of streams.">
+                                Jim Yosef est un producteur et DJ suédois spécialisé dans la musique électronique, notamment l’EDM, la house et la progressive house. Il s’est fait connaître grâce à des morceaux mélodiques publiés notamment sur des labels comme Ninety9Lives et NoCopyrightSounds. Parmi ses morceaux les plus connus, on retrouve « Firefly », « Linked », « Link », « Eclipse » et « Hate You ». Il a également collaboré avec différents artistes, notamment Syzz, Chris Linton et Elle Vee. Sa musique connaît un important succès sur les plateformes de streaming, avec plusieurs de ses morceaux comptant des dizaines de millions d’écoutes.
+                            </p>
+                            <a href="https://jimyosef.com/" target="_blank" 
+                               data-fr="Pour en savoir plus sur Jim Yosef" 
+                               data-en="Learn more about Jim Yosef">
+                                Pour en savoir plus sur Jim Yosef
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
         </section>
 
-
-
         <section>
-            <h2>L'artiste qui est (presque) le plus vu de tout youtube</h2>
+            <h2 data-fr="L'artiste qui est (presque) le plus vu de tout youtube" 
+                data-en="The artist who is (almost) the most viewed on YouTube">
+                L'artiste qui est (presque) le plus vu de tout youtube
+            </h2>
 
             <div class="swiper1"></div>
 
@@ -132,13 +118,9 @@
             </iframe>
         </section>
 
-
-
     </main>
 
-    <footer>
-        <p>&copy; 2026 Music Blog - Tous droits réservés.</p>
-    </footer>
+    <button id="translateBtn">🇬🇧 English</button>
 
 </body>
 

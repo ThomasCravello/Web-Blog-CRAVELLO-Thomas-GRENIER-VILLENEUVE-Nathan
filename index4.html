@@ -3,54 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Music Blog</title>
+    <title data-fr="Contact - Music Blog" data-en="Contact - Music Blog">Contact - Music Blog</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body class="parallax">
 
+    <div id="google_translate_element" style="display:none;"></div>
+
     <header>
-        <h1>Music Blog</h1>
-        <p>Découvrez l'univers de la musique électronique</p>
+        <h1 data-fr="Music Blog" data-en="Music Blog">Music Blog</h1>
+        <p data-fr="Découvrez l'univers de la musique électronique" data-en="Discover the world of electronic music">Découvrez l'univers de la musique électronique</p>
     </header>
 
     <nav>
-        <a href="index.html">Accueil</a>
-        <a href="index2.html">Artistes</a>
-        <a href="index3.html">Musiques</a>
-        <a href="index4.html" class="active">Contact</a>
-        <a href="connexion.html">Connexion</a>
+        <a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a>
+        <a href="index2.html" data-fr="Artistes" data-en="Artists">Artistes</a>
+        <a href="index3.html" data-fr="Musiques" data-en="Music">Musiques</a>
+        <a href="index4.html" class="active" data-fr="Contact" data-en="Contact">Contact</a>
+        <a href="connexion.html" data-fr="Connexion" data-en="Login">Connexion</a>
     </nav>
 
     <main>
         <section class="contact-section">
-            <h2>Contactez-nous</h2>
-            <p class="contact-intro">Une question, une suggestion d'article ou une envie de collaborer ? Écrivez-nous via le formulaire ci-dessous.</p>
+            <h2 data-fr="Contactez-nous" data-en="Contact us">Contactez-nous</h2>
+            <p class="contact-intro" data-fr="Une question, une suggestion d'article ou une envie de collaborer ? Écrivez-nous via le formulaire ci-dessous." data-en="A question, an article suggestion, or a desire to collaborate? Write to us via the form below.">Une question, une suggestion d'article ou une envie de collaborer ? Écrivez-nous via le formulaire ci-dessous.</p>
 
             <form action="#" method="POST" class="contact-form">
                 <div class="form-group">
-                    <label for="name">Votre nom</label>
-                    <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont" required>
+                    <label for="name" data-fr="Votre nom" data-en="Your name">Votre nom</label>
+                    <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont" data-fr="Ex: Jean Dupont" data-en="Ex: John Doe" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Votre adresse e-mail</label>
-                    <input type="email" id="email" name="email" placeholder="Ex: jean.dupont@email.com" required>
+                    <label for="email" data-fr="Votre adresse e-mail" data-en="Your email address">Votre adresse e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Ex: jean.dupont@email.com" data-fr="Ex: jean.dupont@email.com" data-en="Ex: john.doe@email.com" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="subject">Sujet</label>
-                    <input type="text" id="subject" name="subject" placeholder="Ex: Proposition d'article sur le Jazz" required>
+                    <label for="subject" data-fr="Sujet" data-en="Subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" placeholder="Ex: Proposition d'article sur le Jazz" data-fr="Ex: Proposition d'article sur le Jazz" data-en="Ex: Article proposal on Jazz" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Votre message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+                    <label for="message" data-fr="Votre message" data-en="Your message">Votre message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." data-fr="Écrivez votre message ici..." data-en="Write your message here..." required></textarea>
                 </div>
 
-                <button type="submit" class="btn-submit">Envoyer le message</button>
+                <button type="submit" class="btn-submit" data-fr="Envoyer le message" data-en="Send message">Envoyer le message</button>
             </form>
         </section>
     </main>
+
+    <button id="translateBtn">🇬🇧 English</button>
 
 </body>
 </html>
